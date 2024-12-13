@@ -1,0 +1,10 @@
+body{
+    background-color: black;
+    color: #fc032c;
+    width: 99vw;
+    height: 98vh;
+    text-align: center;
+    border: 1px solid #fc032c;
+}
+
+/* use a flex box to try and center the text */
