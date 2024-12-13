@@ -1,10 +1,27 @@
 <!DOCTYPE html>
 <head>
+    <title> Task Tracker</title>
     <link rel="stylesheet" href="taskTracker.css">
+    <script src="taskTracker.js"></script>
 </head>
 <body>
-    <p>
-        Hello World!
-
-    </p>
+    <div class="taskBox">
+        <button class="addItem headerButtons" id="addItem">Add Item</button>
+        <button class="title" id="title">
+            Header
+        </button>
+        <button class="removeItem headerButtons" id = "removeItem">Remove Item</button>
+        <p class="mainList">
+            <label class="listItem"> 
+                <input type="checkbox">
+                First Thing 
+                <span class="checkmark"></span>
+            </label>
+            <label class="listItem"> 
+                <input type="checkbox">
+                Second Thing 
+                <span class="checkmark"></span>
+            </label>
+        </p>
+    </div>
 </body>
