@@ -1,10 +1,55 @@
+@font-face {
+    font-family: headerFont;
+    src: url(know_your_product.ttf);
+}
+
+@font-face {
+    font-family: mainFont;
+    src: url(NOTMK___.ttf);
+}
+
 body{
-    background-color: black;
-    color: #fc032c;
+    background-color: #700114;
+
+}
+
+.taskBox{
+    color: black;
     width: 99vw;
     height: 98vh;
-    text-align: center;
-    border: 1px solid #fc032c;
+    border: 1px solid #01705D;
+    display: grid;
+    grid-template-rows: 15% 85%;
+    grid-template-columns: 20% 60% 20%;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #01705D;
+    font-family: headerFont;
+    font-size: 4vw;
+    margin: 0px;
+    border: 0px;
+    flex: 1;
+    grid-column: 2 / 2;
+    grid-row: 1 / 1;
+    
+}
+
+.mainList{
+    display:flex; 
+    flex-direction: column;
+    grid-column: 1 / 4;
+    grid-row: 2 / 2;    
+    color: white;
+    background-color: #70014B;
+}
+
+.headerButtons{
+    font-family: headerFont;
+    font-size: 2vw;
 }
 
 /* use a flex box to try and center the text */
